@@ -1,4 +1,4 @@
-// ignore_for_file: sort_child_properties_last
+// ignore_for_file: sort_child_properties_last, prefer_const_constructors_in_immutables
 
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
@@ -29,6 +29,7 @@ class TodoTile extends StatelessWidget {
               onPressed: deleteFunction,
               icon: Icons.delete,
               backgroundColor: Colors.red,
+              borderRadius: BorderRadius.circular(15),
               //foregroundColor: Colors.white,
               label: 'Delete',
             ),

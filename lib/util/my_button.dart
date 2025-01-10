@@ -1,3 +1,5 @@
+// ignore_for_file: sort_child_properties_last
+
 import 'package:flutter/material.dart';
 
 class MyButton extends StatelessWidget {
@@ -15,7 +17,7 @@ class MyButton extends StatelessWidget {
     return MaterialButton(
       onPressed: onPressed,
       padding: const EdgeInsets.all(10),
-      color: Colors.deepPurple,
+      color: Colors.deepPurple[400],
       textColor: Colors.white,
       child: Text(text),
       shape: RoundedRectangleBorder(
